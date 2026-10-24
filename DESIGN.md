@@ -81,14 +81,16 @@ class Quote(BaseModel):
     turn_id: int
     text: str
 
+
 class Theme(BaseModel):
     name: str
     summary: str
     quotes: list[Quote] = Field(min_length=1)
 
+
 class AnalysisResult(BaseModel):
-    themes: list[Theme]          # may be empty (D2)
-    dropped_quotes: int          # unverified quotes removed (D1)
+    themes: list[Theme]  # may be empty (D2)
+    dropped_quotes: int  # unverified quotes removed (D1)
     model: str
     prompt_version: str
 ```

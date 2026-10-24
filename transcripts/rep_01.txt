@@ -1,0 +1,24 @@
+Interviewer: Thanks for hopping on. How was the long weekend?
+Participant: Good, honestly. Took the kids to the lake, didn't open my laptop once, which is a first.
+Interviewer: Love that. Let's get into Q4. How are you feeling about the number?
+Participant: I'm at about 60% of quota committed. I feel okay about it, but there's a lot riding on two deals.
+Interviewer: Which two?
+Participant: Northwind Logistics and the Brightline Health expansion. Northwind is the big one, about 180K ARR.
+Interviewer: Where is Northwind at right now?
+Participant: We're through the technical eval and they liked the demo. The ops team is fully bought in. I'd call it solid.
+Interviewer: Who's signing?
+Participant: That's the thing. Our champion was Dana, the VP of Ops, but she announced she's leaving at the end of the month. I haven't met whoever's replacing her yet.
+Interviewer: So the champion's walking out the door. Does that put the deal at risk?
+Participant: Yeah.
+Interviewer: Has procurement gotten involved?
+Participant: Not yet. Dana said she'd loop them in after the security review, but the security questionnaire has been sitting with their IT team for three weeks with no response.
+Interviewer: And Brightline?
+Participant: Brightline is an expansion, so it's easier in theory. But their CFO pushed back on price. He said our renewal went up 12% last year and he's not doing that again.
+Interviewer: Did you have room to discount?
+Participant: I asked my manager for a 10% concession and haven't heard back. Honestly, approvals have been really slow this quarter. I've had two deals wait more than a week for a pricing answer.
+Interviewer: Is that hurting you elsewhere?
+Participant: It cost me a smaller deal in September. The buyer went with a competitor because they gave a number the same day and we took nine days.
+Interviewer: What would help most right now?
+Participant: An exec sponsor to get in front of whoever replaces Dana, and faster turnaround on pricing. If I get those two things I think I hit the number.
+Interviewer: Anything else on your mind?
+Participant: Not really. The new CRM dashboards are nice, I guess. That's about it.
