@@ -2,11 +2,7 @@
 
 A small rebuild of the *analysis* half of an AI-facilitated interview platform: read an interview transcript, pull out the themes, and back every theme with quotes that are **proven** to be in the transcript.
 
-> These are starting takes. Argue with every one and rewrite the "why" in your own words — the interview will test whether the opinions are yours.
-
----
-
-## 1. What the problem actually is
+## 1. What's the problem
 
 "AI interview analysis" is at least five problems:
 
@@ -20,7 +16,7 @@ A small rebuild of the *analysis* half of an AI-facilitated interview platform: 
 
 **The core problem restated:** getting an LLM to produce themes is easy. Getting themes **someone can trust** is the actual problem. LLMs fabricate plausible quotes and invent themes to fill a quota. Every decision below falls out of that.
 
-**Example domain:** sales pipeline check-ins — an interviewer asks a rep about their Q4 deals. You know this world, so you can write realistic sample transcripts (be upfront that they're synthetic).
+**Example domain:** sales pipeline check-ins — an interviewer asks a rep about their Q4 deals. Something familiar, so I can discern relevance easily.
 
 ---
 
@@ -51,7 +47,7 @@ Each stage has a **done when** and a **pitch if the interview happens now**.
 - **Done when:** `uv run python -m evals.run` prints a scorecard you can compare across prompt versions.
 
 ### Stage 5 — Basic frontend
-- React + TypeScript (their stack) via Vite: paste a transcript, see themes, click a theme to highlight its quotes in the transcript.
+- React + TypeScript via Vite: paste a transcript, see themes, click a theme to highlight its quotes in the transcript.
 
 ---
 

@@ -4,5 +4,5 @@ from pydantic import BaseModel
 
 class Turn(BaseModel):
     turn_id: int
-    speaker: Literal["interviewer", "subject"]
-    text: str
+    speaker: Literal["interviewer", "participant"]
+    text: str = Field(min_length=1)
