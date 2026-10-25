@@ -17,7 +17,7 @@ def text_to_turns(text: str) -> list[Turn]:
     turns: list[Turn] = []
 
     for turn_id, line in enumerate(lines, start=1):
-        turn = line_to_turn(line, turn_id))
+        turn = line_to_turn(line, turn_id)
         turns.append(turn)
 
     return turns
