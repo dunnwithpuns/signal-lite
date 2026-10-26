@@ -23,6 +23,6 @@ def text_to_turns(text: str) -> list[Turn]:
     return turns
 
 def line_to_turn(line: str, turn_id: int) -> Turn:
+
     speaker, text = line.split(":", 1)
-    turn = Turn(turn_id=turn_id, speaker=speaker.strip().lower(), text=text.strip())
-    return turn
+    return Turn(turn_id=turn_id, speaker=speaker.strip().lower(), text=text.strip())

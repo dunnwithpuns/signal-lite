@@ -1,8 +1,8 @@
-from typing import Literal
-from pydantic import BaseModel
+from typing import Annotated, Literal
+from pydantic import BaseModel, Field
 
 
-class Turn(BaseModel):
-    turn_id: int
+class Turn(BaseModel, frozen=True):
+    turn_id: Annotated[int, Field(gt=0)]
     speaker: Literal["interviewer", "participant"]
     text: str = Field(min_length=1)

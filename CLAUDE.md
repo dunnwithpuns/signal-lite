@@ -21,6 +21,7 @@ I'm building this to prepare for a FastAPI/Pydantic interview and have to defend
 - Stay in the current stage. Don't pull in later-stage work (DB, frontend) early.
 - Never add a dependency without asking. No agent frameworks (D8).
 - If a change contradicts a decision in DESIGN.md, flag it; I update the decision log and write the "why".
+- We've decided to switch approaches to a hybrid approach, I'll write the core D3 models, quote verification, and prompt logic while you handle edge cases and cli plumbing, and whatever you do write, must be explained and approved.
 
 ## Conventions
 - `analyze(transcript, llm) -> AnalysisResult` is pure: no file I/O, printing, or HTTP. CLI/API/evals are thin wrappers (D4).
